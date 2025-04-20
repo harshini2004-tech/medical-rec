@@ -1,25 +1,30 @@
-.css-qrbaxs{
+.css-qrbaxs {
     color: white;
-    background-color:#328188;
+    background-color: #2b7a78; /* Soothing teal */
     font-size: 25px;
     padding: 2.4px;
-    border: 1px solid black;
+    border: 1px solid #05445E;
     border-radius: 10px;
 }
 
+/* For paragraph, ordered list, unordered list, and definition list */
 p, ol, ul, dl {
-    background-color: rgb(161, 214, 234);
+    background-color: #0b695d; /* light mint green for a calm feel */
     padding: 20px 10px;
     border-radius: 10px;
     font-weight: 800;
     font-size: 20px;
 }
+
+/* List items with better readability */
 .css-nlntq9 li {
     margin: 0.2em 0px 0.2em 1.2em;
     padding: 0px 0px 0px 0.6em;
     font-size: 22px;
+    color: #05445E; /* Dark health-themed navy */
 }
 
+/* General box style with soft blue tone */
 .css-1cpxqw2 {
     align-items: center;
     justify-content: center;
@@ -28,30 +33,38 @@ p, ol, ul, dl {
     border-radius: 0.25rem;
     margin-bottom: 50px;
     line-height: 1.6;
-    color: inherit;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(49, 51, 63, 0.2);
+    color: #222;
+    background-color: #ffffff;
+    border: 1px solid #034942;
 }
 
-h1{
-    color: red;
-    background-color: #ffff66;
-    border: 1px solid black;
+/* Header with fresh, medical tone */
+h1 {
+    color: #ffffff;
+    background-color: #379683; /* green-blue calming tone */
+    border: 1px solid #05445E;
     border-radius: 25px;
     padding: 5px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-a{
+/* Link buttons with a clean and simple look */
+a {
     padding: 5px;
-    background-color: white;
-    border: 1px solid black;
+    background-color: #ffffff;
+    border: 1px solid #3fb68b;
     border-radius: 10px;
+    color: #2c786c;
+    text-decoration: none;
 }
 
+/* Emphasis text or button section */
 .st-bt {
     font-size: 25px;
     font-weight: 600;
-    background-color: rgb(230 240 255);
+    background-color: #dafaf4; /* light bluish-green */
+    color: #05445E;
+    padding: 5px;
+    border-radius: 10px;
 }
